@@ -13,10 +13,6 @@ tools for cafe networks, scraping pipelines that survive real-world
 anti-bot walls, and contribute back to the open-source security stack I
 rely on daily.
 
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=maulanawirawan&theme=onedark&no-frame=true&row=1&column=6&margin-w=6)
-
 ## 🚜 Open-source contributions
 
 - **[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)** — merged: flaky Cloudflare readiness test fix ([#515](https://github.com/D4Vinci/Scrapling/pull/515))
@@ -29,7 +25,7 @@ rely on daily.
 
 ## 📊 Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=maulanawirawan&show_icons=true&hide_border=true&count_private=true&theme=onedark" width="49%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=maulanawirawan&show_icons=true&hide_border=true&count_private=true&theme=onedark" width="49%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=maulanawirawan&hide_border=true&theme=onedark" width="49%"/>
 
 ## 🐍 Contribution snake
