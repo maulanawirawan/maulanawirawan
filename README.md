@@ -23,9 +23,6 @@ rely on daily.
 - **[Cyphron](https://github.com/maulanawirawan/cyphron)** — evidence-first security assessment engine: 84 detection skills, FAO quorum, self-updating intel (KEV/NVD/OSV). *No exploit, no report.*
 - **NetJaga** — LAN guardian for cafe networks: device monitoring, whitelist, DNS patrol, router-block guidance *(private)*
 
-## 📊 Stats
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=maulanawirawan&show_icons=true&hide_border=true&count_private=true&theme=onedark" width="49%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=maulanawirawan&hide_border=true&theme=onedark" width="49%"/>
 
 ## 🐍 Contribution snake
