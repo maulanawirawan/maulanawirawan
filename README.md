@@ -20,7 +20,7 @@ rely on daily.
 ## 🚜 Open-source contributions
 
 - **[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)** — merged: flaky Cloudflare readiness test fix ([#515](https://github.com/D4Vinci/Scrapling/pull/515))
-- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** — open: KEV detection template for CVE-2026-96654 ([#17651](https://github.com/projectdiscovery/nuclei-templates/pull/17651)), false-positive fix for  ([#17653](https://github.com/projectdiscovery/nuclei-templates/pull/17653))
+- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** — open: KEV detection template for CVE-2026-96654 ([#17651](https://github.com/projectdiscovery/nuclei-templates/pull/17651)), false-positive fix for the Dell iDRAC9 technology template ([#17653](https://github.com/projectdiscovery/nuclei-templates/pull/17653))
 
 ## 🛠️ Projects
 
