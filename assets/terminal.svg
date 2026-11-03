@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="whoami terminal">
   <defs>
-    <pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" fill="#000" opacity=".45"/>
-    </pattern>
     <style>
       text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 19px; white-space: pre; }
       .l { opacity: 0; animation: in .01s forwards; }
@@ -20,7 +17,7 @@
     </style>
   </defs>
 
-  <rect width="1200" height="470" rx="14" fill="#07080c"/>
+  <rect width="1200" height="470" rx="14" fill="#0a0b10"/>
   <rect x="0" y="0" width="1200" height="44" rx="14" fill="#10121a"/>
   <rect x="0" y="30" width="1200" height="14" fill="#10121a"/>
   <circle cx="30" cy="22" r="7" fill="#ff2a4d"/>
@@ -46,6 +43,5 @@
     <text class="l" y="428" style="animation-delay:6s"><tspan class="hot">  [!] LOW</tspan><tspan class="o"> — I only report what I can prove.</tspan><tspan class="p blink"> █</tspan></text>
   </g>
 
-  <rect width="1200" height="470" rx="14" fill="url(#sl)" pointer-events="none"/>
-  <rect x=".5" y=".5" width="1199" height="469" rx="14" fill="none" stroke="#00f0ff" stroke-opacity=".35"/>
+  <rect x=".5" y=".5" width="1199" height="469" rx="14" fill="none" stroke="#262a33"/>
 </svg>
