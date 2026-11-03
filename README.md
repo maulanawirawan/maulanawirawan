@@ -73,7 +73,7 @@ live, so it shows what's really there.
 
 ## `06` ▸ ACTIVITY TRACE
 
-<img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph"/>
+<img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D contribution graph"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maulanawirawan/maulanawirawan/output/github-contribution-grid-snake-dark.svg"/>
