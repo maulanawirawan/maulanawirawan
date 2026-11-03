@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Maulana+%F0%9F%91%8B;I+write+security+tools+that+show+their+work.;Detection+engineering+%C2%B7+network+tooling+%C2%B7+scraping;Jakarta%2C+Indonesia" alt="Hi, I'm Maulana"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Maulana+%F0%9F%91%8B;I+write+security+tools+that+show+their+work.;Detection+engineering+%C2%B7+network+tooling+%C2%B7+scraping;Jakarta%2C+Indonesia" alt="Hi, I'm Maulana"/>
 
 <br/>
 
