@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="whoami terminal">
+  <defs>
+    <pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity=".45"/>
+    </pattern>
+    <style>
+      text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 19px; white-space: pre; }
+      .l { opacity: 0; animation: in .01s forwards; }
+      @keyframes in { to { opacity: 1; } }
+      .p { fill: #39ff14; }
+      .u { fill: #ff2a4d; font-weight: 700; }
+      .cmd { fill: #f4f4f6; }
+      .o { fill: #b8bcc6; }
+      .k { fill: #00f0ff; }
+      .hot { fill: #ff2a4d; font-weight: 700; }
+      .dim { fill: #5d626d; }
+      .blink { animation: bk 1s infinite steps(1); }
+      @keyframes bk { 50% { opacity: 0; } }
+      .title { fill: #8a8f98; font-size: 14px; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="14" fill="#07080c"/>
+  <rect x="0" y="0" width="1200" height="44" rx="14" fill="#10121a"/>
+  <rect x="0" y="30" width="1200" height="14" fill="#10121a"/>
+  <circle cx="30" cy="22" r="7" fill="#ff2a4d"/>
+  <circle cx="54" cy="22" r="7" fill="#ffb02e"/>
+  <circle cx="78" cy="22" r="7" fill="#39ff14"/>
+  <text x="600" y="27" text-anchor="middle" class="title">maulana@jkt-id — zsh — 120×24</text>
+
+  <g transform="translate(34,0)">
+    <text class="l" y="86" style="animation-delay:.3s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">whoami</tspan></text>
+    <text class="l o" y="114" style="animation-delay:.9s">security tooling &amp; detection engineering · Jakarta, Indonesia</text>
+
+    <text class="l" y="156" style="animation-delay:1.6s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">ls ./building</tspan></text>
+    <text class="l" y="184" style="animation-delay:2.2s"><tspan class="k">  cyphron   </tspan><tspan class="o"> evidence-first scanner · 92 skills · 914 + 59 tests passing</tspan></text>
+    <text class="l" y="210" style="animation-delay:2.5s"><tspan class="k">  upstream  </tspan><tspan class="o"> detection PRs to nuclei-templates &amp; Scrapling</tspan></text>
+    <text class="l" y="236" style="animation-delay:2.8s"><tspan class="k">  netjaga   </tspan><tspan class="o"> LAN guardian for cafe networks</tspan><tspan class="dim"> (private)</tspan></text>
+
+    <text class="l" y="278" style="animation-delay:3.5s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">cat ./rules.txt</tspan></text>
+    <text class="l o" y="306" style="animation-delay:4.1s">  01  a finding you can't prove is a lead, not a claim.</text>
+    <text class="l o" y="332" style="animation-delay:4.4s">  02  if the control endpoint fails too, the claim dies.</text>
+    <text class="l o" y="358" style="animation-delay:4.7s">  03  authorized targets only. no exceptions.</text>
+
+    <text class="l" y="400" style="animation-delay:5.4s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">threat-level --self</tspan></text>
+    <text class="l" y="428" style="animation-delay:6s"><tspan class="hot">  [!] LOW</tspan><tspan class="o"> — I only report what I can prove.</tspan><tspan class="p blink"> █</tspan></text>
+  </g>
+
+  <rect width="1200" height="470" rx="14" fill="url(#sl)" pointer-events="none"/>
+  <rect x=".5" y=".5" width="1199" height="469" rx="14" fill="none" stroke="#00f0ff" stroke-opacity=".35"/>
+</svg>
