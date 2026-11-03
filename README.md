@@ -44,7 +44,9 @@ reproduce.
 
 ## `03` ▸ UPSTREAM OPS
 
-These are PRs I've sent to projects I depend on. The status column is
+These are PRs I've sent to projects I depend on. Two are merged so far,
+one false-positive fix in nuclei-templates and one test fix in Scrapling.
+The status column is
 live, so it shows what's really there.
 
 | Target | Op | Status |
