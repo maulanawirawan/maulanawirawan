@@ -29,7 +29,7 @@ back, and send fixes upstream to the open-source tools I use.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 8 merged upstream</summary>
+<summary><b>Open source contributions</b> · 8 merged upstream · 22 open</summary>
 <br/>
 
 PRs I've sent to projects I depend on. The status column is live.
@@ -55,6 +55,11 @@ PRs I've sent to projects I depend on. The status column is live.
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17667](https://github.com/projectdiscovery/nuclei-templates/pull/17667) · FP fix · WSUS: verify SoapFormatter types before matching | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17667?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17651](https://github.com/projectdiscovery/nuclei-templates/pull/17651) · CVE-2026-96654 · Plex Media Server detection (KEV) | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17651?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17654](https://github.com/projectdiscovery/nuclei-templates/pull/17654) · fewer false positives in `smb-default-login` via a canary credential | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17654?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17727](https://github.com/projectdiscovery/nuclei-templates/pull/17727) · CVE-2026-102657 · esm.sh web handler: unauthenticated path traversal | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17727?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17722](https://github.com/projectdiscovery/nuclei-templates/pull/17722) · CVE-2026-124027 · ChatWiki: unauthenticated cross-tenant document disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17722?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17721](https://github.com/projectdiscovery/nuclei-templates/pull/17721) · CVE-2026-102359 · Kroki TikZ backend: unauthenticated local file read | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17721?style=flat-square&label=) |
+| [advisory-database](https://github.com/github/advisory-database) | [#10933](https://github.com/github/advisory-database/pull/10933) · Craft CMS SQLi: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10933?style=flat-square&label=) |
+| [advisory-database](https://github.com/github/advisory-database) | [#10932](https://github.com/github/advisory-database/pull/10932) · Craft CMS priv-esc: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10932?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10908](https://github.com/github/advisory-database/pull/10908) · Mnestix: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10908?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10923](https://github.com/github/advisory-database/pull/10923) · BTCPay Server: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10923?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10929](https://github.com/github/advisory-database/pull/10929) · Parse Server: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10929?style=flat-square&label=) |
