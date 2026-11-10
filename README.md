@@ -29,7 +29,7 @@ back, and send fixes upstream to the open-source tools I use.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 8 merged upstream · 22 open</summary>
+<summary><b>Open source contributions</b> · 8 merged upstream · 24 open</summary>
 <br/>
 
 PRs I've sent to projects I depend on. The status column is live.
@@ -57,6 +57,8 @@ PRs I've sent to projects I depend on. The status column is live.
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17654](https://github.com/projectdiscovery/nuclei-templates/pull/17654) · fewer false positives in `smb-default-login` via a canary credential | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17654?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17727](https://github.com/projectdiscovery/nuclei-templates/pull/17727) · CVE-2026-102657 · esm.sh web handler: unauthenticated path traversal | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17727?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17722](https://github.com/projectdiscovery/nuclei-templates/pull/17722) · CVE-2026-124027 · ChatWiki: unauthenticated cross-tenant document disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17722?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17742](https://github.com/projectdiscovery/nuclei-templates/pull/17742) · CVE-2026-122060 · WP Recipe Maker: unauthenticated password-protected recipe disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17742?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17743](https://github.com/projectdiscovery/nuclei-templates/pull/17743) · CVE-2026-120409 · All-in-One Video Gallery: unauthenticated password-protected video source disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17743?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17721](https://github.com/projectdiscovery/nuclei-templates/pull/17721) · CVE-2026-102359 · Kroki TikZ backend: unauthenticated local file read | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17721?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10933](https://github.com/github/advisory-database/pull/10933) · Craft CMS SQLi: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10933?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10932](https://github.com/github/advisory-database/pull/10932) · Craft CMS priv-esc: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10932?style=flat-square&label=) |
