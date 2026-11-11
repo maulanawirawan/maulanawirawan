@@ -56,7 +56,7 @@
     <text x="150" y="278" class="cvss">&#9656;</text>
 
     <text x="30" y="312" class="foot">secai ci: <tspan class="ok">passing</tspan></text>
-    <text x="1170" y="312" text-anchor="end" class="foot">updated 2026-11-11 08:29 UTC · regenerated nightly by github actions</text>
+    <text x="1170" y="312" text-anchor="end" class="foot">updated 2026-11-11 08:48 UTC · regenerated nightly by github actions</text>
 
     <rect class="scan" x="0" y="0" width="1200" height="2" fill="#00f0ff" opacity=".10"/>
     <rect width="1199" height="319" x=".5" y=".5" rx="14" fill="none" stroke="#262a33"/>
