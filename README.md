@@ -29,7 +29,7 @@ back, and send fixes upstream to the open-source tools I use.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 8 merged upstream · 26 open</summary>
+<summary><b>Open source contributions</b> · 9 merged upstream · 25 open</summary>
 <br/>
 
 PRs I've sent to projects I depend on. The status column is live.
