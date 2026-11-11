@@ -1,22 +1,29 @@
 name: CTF submission
-description: Submit your three secai{...} flags
+description: Prove you found the three secai{...} flags, without posting them
 title: "CTF: "
 labels: ["ctf"]
 body:
   - type: markdown
     attributes:
       value: |
-        Found all three flags? Paste them below. A bot verifies them by
-        SHA-256 — no plaintext answers live in this repo. Rules: [CTF.md](https://github.com/maulanawirawan/maulanawirawan/blob/HEAD/CTF.md).
+        **Don't paste the flags.** For each one, post a proof instead:
+        `sha256("<your-github-username>:<flag>")`, with your username in lowercase.
+        A proof only works for your account, so nobody can copy it.
+
+        ```bash
+        printf '%s' 'yourname:secai{...}' | sha256sum
+        ```
+
+        PowerShell version and full rules: [CTF.md](https://github.com/maulanawirawan/maulanawirawan/blob/HEAD/CTF.md).
   - type: textarea
-    id: flags
+    id: proofs
     attributes:
-      label: Your flags
-      description: One `secai{...}` per line, any order.
+      label: Your proofs
+      description: Three 64-character hex digests, one per line, any order.
       placeholder: |
-        secai{...}
-        secai{...}
-        secai{...}
+        <64 hex chars>
+        <64 hex chars>
+        <64 hex chars>
     validations:
       required: true
   - type: input

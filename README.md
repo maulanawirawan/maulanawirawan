@@ -135,14 +135,14 @@ distrust any metric I can't reproduce.
 
 ### Capture the flag
 
-Three flags are hidden in the SVGs on this page — the board that scans me,
-the evidence ladder, and the terminal's house rules — each wrapped in a
-different classic encoding (base64, hex, rot13). Decode all three, open an
-issue with the **CTF submission** template, and a bot verifies them by hash,
-then signs you into the [Hall of Fame](HALL-OF-FAME.md). Full rules and the
-answer hashes: [CTF.md](CTF.md).
+Three flags are hidden in the SVGs on this page: the board that scans me, the
+evidence ladder, and the terminal's house rules. Each one is wrapped in a
+different classic encoding (base64, hex, rot13). Find all three, then prove it
+without leaking them: post `sha256("your-username:flag")` for each in a
+**CTF submission** issue. A bot checks the proofs and signs you into the
+[Hall of Fame](HALL-OF-FAME.md). Rules: [CTF.md](CTF.md).
 
-<sub>No brute force — answers live only as SHA-256. Authorized target: this profile. `view-source` is the whole toolkit.</sub>
+<sub>Never post a raw flag. Authorized target: this profile. `view-source` is the whole toolkit.</sub>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
