@@ -19,6 +19,8 @@ latest CVE shipped, secai's CI state — and redraws the board above. Same rule
 as secai: the figures are real, or the run fails and nothing changes. The
 generator is right here in the repo: [`.github/scripts/selfscan.py`](.github/scripts/selfscan.py).
 
+<img src="assets/divider.svg" width="100%" alt=""/>
+
 ### About
 
 Detection engineering, mostly — the unglamorous half of security where a
@@ -34,6 +36,8 @@ independent sources agree on it.
 The rest of the week splits between network tooling for small businesses
 (café Wi‑Fi is a jungle), scrapers that keep working when the site fights
 back, and patches sent upstream to the tools I rely on.
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ### Projects
 
@@ -126,6 +130,21 @@ distrust any metric I can't reproduce.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maulanawirawan/maulanawirawan/output/github-contribution-grid-snake.svg"/>
   <img alt="contribution snake" src="https://raw.githubusercontent.com/maulanawirawan/maulanawirawan/output/github-contribution-grid-snake.svg"/>
 </picture>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+### Capture the flag
+
+Three flags are hidden in the SVGs on this page — the board that scans me,
+the evidence ladder, and the terminal's house rules — each wrapped in a
+different classic encoding (base64, hex, rot13). Decode all three, open an
+issue with the **CTF submission** template, and a bot verifies them by hash,
+then signs you into the [Hall of Fame](HALL-OF-FAME.md). Full rules and the
+answer hashes: [CTF.md](CTF.md).
+
+<sub>No brute force — answers live only as SHA-256. Authorized target: this profile. `view-source` is the whole toolkit.</sub>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ### Get in touch
 

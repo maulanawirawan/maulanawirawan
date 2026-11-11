@@ -1,17 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="secai">
-  <style>
-    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
-    .k { fill: #ff2a4d; font-size: 13px; font-weight: 700; letter-spacing: 2px; }
-    .t { fill: #f4f4f6; font-size: 34px; font-weight: 800; }
-    .b { fill: #a9adb7; font-size: 17px; }
-    .chip { fill: #d6d9df; font-size: 14px; }
-    .go { fill: #ff2a4d; font-size: 15px; font-weight: 700; }
-  </style>
-  <rect x=".5" y=".5" width="1199" height="229" rx="14" fill="#0a0b10" stroke="#262a33"/>
-  <rect x="1" y="1" width="5" height="228" rx="2" fill="#ff2a4d"/>
-  <text x="32" y="48" class="k">CURRENT FOCUS</text>
-  <text x="32" y="92" class="t">secai</text>
-  <text x="32" y="126" class="b">An agentic security scanner that refuses to report what it can't prove.</text>
-  <rect x="32" y="150" width="164" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="114" y="171" text-anchor="middle" class="chip">272 capabilities</text><rect x="208" y="150" width="206" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="311" y="171" text-anchor="middle" class="chip">93 skills + 176 tools</text><rect x="426" y="150" width="154" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="503" y="171" text-anchor="middle" class="chip">Rust core + MCP</text><rect x="592" y="150" width="154" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="669" y="171" text-anchor="middle" class="chip">KEV · NVD · OSV</text><rect x="758" y="150" width="120" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="818" y="171" text-anchor="middle" class="chip">PolyForm NC</text>
-  <text x="1168" y="92" text-anchor="end" class="go">open repo →</text>
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2a4d"/><stop offset=".5" stop-color="#8A2BE2"/><stop offset="1" stop-color="#00f0ff"/>
+    </linearGradient>
+    <clipPath id="f"><rect x=".5" y=".5" width="1199" height="229" rx="14"/></clipPath>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; }
+      .k { fill: #ff2a4d; font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .t { fill: #f4f4f6; font-size: 34px; font-weight: 800; }
+      .b { fill: #a9adb7; font-size: 17px; }
+      .chip { fill: #d6d9df; font-size: 14px; }
+      .go { fill: #ff2a4d; font-size: 15px; font-weight: 700; }
+    </style>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="1200" height="230" fill="#0a0b10"/>
+    <rect width="1200" height="4" fill="url(#a)"/>
+    <rect x="1" y="1" width="5" height="228" rx="2" fill="#ff2a4d"/>
+    <text x="32" y="48" class="k">CURRENT FOCUS</text>
+    <text x="32" y="92" class="t">secai</text>
+    <text x="32" y="126" class="b">An agentic security scanner that refuses to report what it can't prove.</text>
+    <rect x="32" y="150" width="164" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="114" y="171" text-anchor="middle" class="chip">272 capabilities</text><rect x="208" y="150" width="206" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="311" y="171" text-anchor="middle" class="chip">93 skills + 176 tools</text><rect x="426" y="150" width="154" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="503" y="171" text-anchor="middle" class="chip">Rust core + MCP</text><rect x="592" y="150" width="154" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="669" y="171" text-anchor="middle" class="chip">KEV · NVD · OSV</text><rect x="758" y="150" width="120" height="32" rx="16" fill="#12141b" stroke="#262a33"/><text x="818" y="171" text-anchor="middle" class="chip">PolyForm NC</text>
+    <text x="1168" y="92" text-anchor="end" class="go">open repo →</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="229" rx="14" fill="none" stroke="#262a33"/>
 </svg>

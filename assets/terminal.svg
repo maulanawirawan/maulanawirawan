@@ -1,19 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="whoami terminal">
   <defs>
+    <clipPath id="c1"><rect id="rc1" x="171" y="68" width="0" height="26"/></clipPath>
+    <clipPath id="c2"><rect id="rc2" x="171" y="138" width="0" height="26"/></clipPath>
+    <clipPath id="c3"><rect id="rc3" x="171" y="260" width="0" height="26"/></clipPath>
+    <clipPath id="c4"><rect id="rc4" x="171" y="382" width="0" height="26"/></clipPath>
     <style>
-      text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 19px; white-space: pre; }
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; font-size: 19px; white-space: pre; }
+      .p { fill: #39ff14; } .u { fill: #ff2a4d; font-weight: 700; } .cmd { fill: #f4f4f6; }
+      .o { fill: #b8bcc6; } .k { fill: #00f0ff; } .hot { fill: #ff2a4d; font-weight: 700; } .dim { fill: #5d626d; }
+      .title { fill: #8a8f98; font-size: 14px; letter-spacing: 2px; }
       .l { opacity: 0; animation: in .01s forwards; }
       @keyframes in { to { opacity: 1; } }
-      .p { fill: #39ff14; }
-      .u { fill: #ff2a4d; font-weight: 700; }
-      .cmd { fill: #f4f4f6; }
-      .o { fill: #b8bcc6; }
-      .k { fill: #00f0ff; }
-      .hot { fill: #ff2a4d; font-weight: 700; }
-      .dim { fill: #5d626d; }
-      .blink { animation: bk 1s infinite steps(1); }
+      .blink { animation: bk 1.1s infinite steps(1); }
       @keyframes bk { 50% { opacity: 0; } }
-      .title { fill: #8a8f98; font-size: 14px; letter-spacing: 2px; }
+      #rc1 { animation: ty1 .54s steps(6) .30s both; }
+      #rc2 { animation: ty2 1.17s steps(13) 1.50s both; }
+      #rc3 { animation: ty3 1.35s steps(15) 3.70s both; }
+      #rc4 { animation: ty4 1.71s steps(19) 6.10s both; }
+      @keyframes ty1 { to { width: 68.4px; } }
+      @keyframes ty2 { to { width: 148.2px; } }
+      @keyframes ty3 { to { width: 171px; } }
+      @keyframes ty4 { to { width: 216.6px; } }
     </style>
   </defs>
 
@@ -26,22 +33,27 @@
   <text x="600" y="27" text-anchor="middle" class="title">maulana@jkt-id — zsh — 120×24</text>
 
   <g transform="translate(34,0)">
-    <text class="l" y="86" style="animation-delay:.3s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">whoami</tspan></text>
-    <text class="l o" y="114" style="animation-delay:.9s">security tooling &amp; detection engineering · Jakarta, Indonesia</text>
+    <text class="l" y="86" style="animation-delay:.30s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan></text>
+    <text class="cmd" x="171" y="86" clip-path="url(#c1)">whoami</text>
+    <text class="l o" y="114" style="animation-delay:.95s">security tooling &amp; detection engineering · Jakarta, Indonesia</text>
 
-    <text class="l" y="156" style="animation-delay:1.6s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">ls ./building</tspan></text>
-    <text class="l" y="184" style="animation-delay:2.2s"><tspan class="k">  secai     </tspan><tspan class="o"> evidence-first scanner · 272 capabilities · Rust core + MCP</tspan></text>
-    <text class="l" y="210" style="animation-delay:2.5s"><tspan class="k">  upstream  </tspan><tspan class="o"> 9 merged, 25 open · nuclei-templates · Scrapling · OWASP</tspan></text>
-    <text class="l" y="236" style="animation-delay:2.8s"><tspan class="k">  netjaga   </tspan><tspan class="o"> LAN guardian for cafe networks</tspan><tspan class="dim"> (private)</tspan></text>
+    <text class="l" y="156" style="animation-delay:1.50s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan></text>
+    <text class="cmd" x="171" y="156" clip-path="url(#c2)">ls ./building</text>
+    <text class="l" y="184" style="animation-delay:2.80s"><tspan class="k">  secai     </tspan><tspan class="o"> evidence-first scanner · 272 capabilities · Rust core + MCP</tspan></text>
+    <text class="l" y="210" style="animation-delay:3.00s"><tspan class="k">  upstream  </tspan><tspan class="o"> 9 merged, 25 open · nuclei-templates · Scrapling · OWASP</tspan></text>
+    <text class="l" y="236" style="animation-delay:3.20s"><tspan class="k">  netjaga   </tspan><tspan class="o"> LAN guardian for cafe networks</tspan><tspan class="dim"> (private)</tspan></text>
 
-    <text class="l" y="278" style="animation-delay:3.5s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">cat ./rules.txt</tspan></text>
-    <text class="l o" y="306" style="animation-delay:4.1s">  01  a finding you can't prove is a lead, not a claim.</text>
-    <text class="l o" y="332" style="animation-delay:4.4s">  02  if the control endpoint fails too, the claim dies.</text>
-    <text class="l o" y="358" style="animation-delay:4.7s">  03  authorized targets only. no exceptions.</text>
+    <text class="l" y="278" style="animation-delay:3.70s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan></text>
+    <text class="cmd" x="171" y="278" clip-path="url(#c3)">cat ./rules.txt</text>
+    <text class="l o" y="306" style="animation-delay:5.20s">  01  a finding you can't prove is a lead, not a claim.</text>
+    <text class="l o" y="332" style="animation-delay:5.40s">  02  if the control endpoint fails too, the claim dies.</text>
+    <text class="l o" y="358" style="animation-delay:5.60s">  03  authorized targets only. no exceptions.</text>
 
-    <text class="l" y="400" style="animation-delay:5.4s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">threat-level --self</tspan></text>
-    <text class="l" y="428" style="animation-delay:6s"><tspan class="hot">  [!] LOW</tspan><tspan class="o"> — I only report what I can prove.</tspan><tspan class="p blink"> █</tspan></text>
+    <text class="l" y="400" style="animation-delay:6.10s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan></text>
+    <text class="cmd" x="171" y="400" clip-path="url(#c4)">threat-level --self</text>
+    <text class="l" y="428" style="animation-delay:7.95s"><tspan class="hot">  [!] LOW</tspan><tspan class="o"> — I only report what I can prove.</tspan><tspan class="p blink"> █</tspan></text>
   </g>
 
   <rect x=".5" y=".5" width="1199" height="469" rx="14" fill="none" stroke="#262a33"/>
+  <!-- ctf 3/3 (rot13): frpnv{nhgubevmrq_gnetrgf_bayl} -->
 </svg>

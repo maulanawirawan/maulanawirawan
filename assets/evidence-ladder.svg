@@ -82,4 +82,5 @@
 
   <text class="note"  x="32"   y="222">left of the line → leads &amp; bookkeeping · reportable: false</text>
   <text class="noteR" x="1168" y="222" text-anchor="end">right of the line → proven · ships in the report ✓</text>
+  <!-- ctf 2/3 (hex): 73656361697b6c335f6f725f69745f6469646e745f68617070656e7d -->
 </svg>

@@ -1,16 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="590" height="170" viewBox="0 0 590 170" role="img" aria-label="minetwin">
-  <style>
-    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
-    .t { fill: #f4f4f6; font-size: 22px; font-weight: 700; }
-    .b { fill: #a9adb7; font-size: 15.5px; }
-    .s { fill: #6b7079; font-size: 13.5px; }
-    .go { fill: #ffb02e; font-size: 13.5px; font-weight: 700; }
-  </style>
-  <rect x=".5" y=".5" width="589" height="169" rx="12" fill="#0a0b10" stroke="#262a33"/>
-  <rect x="1" y="1" width="4" height="168" rx="2" fill="#ffb02e"/>
-  <text x="28" y="50" class="t">minetwin</text>
-  <text x="28" y="88" class="b">Mining digital-twin dashboard with a 3D pit view. All</text><text x="28" y="112" class="b">data is simulated, and the screen says so.</text>
-  <circle cx="33" cy="145" r="5" fill="#ffb02e"/>
-  <text x="46" y="150" class="s">TypeScript · Next.js · Three.js</text>
-  <text x="562" y="150" text-anchor="end" class="go">open repo →</text>
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb02e"/><stop offset="1" stop-color="#ffb02e" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="f"><rect x=".5" y=".5" width="589" height="169" rx="12"/></clipPath>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; }
+      .t { fill: #f4f4f6; font-size: 22px; font-weight: 700; }
+      .b { fill: #a9adb7; font-size: 15.5px; }
+      .s { fill: #6b7079; font-size: 13.5px; }
+      .go { fill: #ffb02e; font-size: 13.5px; font-weight: 700; }
+    </style>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="590" height="170" fill="#0a0b10"/>
+    <rect width="590" height="4" fill="url(#a)"/>
+    <rect x="1" y="1" width="4" height="168" rx="2" fill="#ffb02e"/>
+    <text x="28" y="50" class="t">minetwin</text>
+    <text x="28" y="88" class="b">Mining digital-twin dashboard with a 3D pit view. All</text><text x="28" y="112" class="b">data is simulated, and the screen says so.</text>
+    <circle cx="33" cy="145" r="5" fill="#ffb02e"/>
+    <text x="46" y="150" class="s">TypeScript · Next.js · Three.js</text>
+    <text x="562" y="150" text-anchor="end" class="go">open repo →</text>
+  </g>
+  <rect x=".5" y=".5" width="589" height="169" rx="12" fill="none" stroke="#262a33"/>
 </svg>
