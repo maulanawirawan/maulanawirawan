@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="The evidence ladder: a finding only ships at L3 and above">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2a4d"/>
+      <stop offset="1" stop-color="#39ff14"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00f0ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="band"><rect x="32" y="86" width="1136" height="102" rx="10"/></clipPath>
+    <style>
+      text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+      .kick { fill: #6b7079; font-size: 13px; font-weight: 700; letter-spacing: 3px; }
+      .meta { fill: #5d626d; font-size: 13px; }
+      .cell { fill: #0e1016; stroke: #262a33; }
+      .cellR { fill: #0d140f; }
+      .lv { fill: #6b7079; font-size: 30px; font-weight: 800; }
+      .cap { fill: #4b4f58; font-size: 11px; letter-spacing: 1.5px; }
+      .lvR { fill: #eafff0; font-size: 30px; font-weight: 800; }
+      .capR { fill: #39ff14; font-size: 11px; letter-spacing: 1.5px; }
+      .rej { fill: #7a2230; font-size: 30px; font-weight: 800; }
+      .note { fill: #5d626d; font-size: 13px; }
+      .noteR { fill: #39ff14; font-size: 13px; font-weight: 700; }
+      .chk { fill: #39ff14; font-size: 15px; font-weight: 800; }
+      .pulse { animation: pz 2.2s ease-in-out infinite; }
+      @keyframes pz { 0%,100% { stroke-opacity: .35; } 50% { stroke-opacity: 1; } }
+      .beam { animation: sweep 4.5s linear infinite; }
+      @keyframes sweep { 0% { transform: translateX(-160px); } 100% { transform: translateX(1200px); } }
+    </style>
+  </defs>
+
+  <rect x=".5" y=".5" width="1199" height="259" rx="14" fill="#0a0b10" stroke="#262a33"/>
+  <rect x="1" y="1" width="1198" height="3" fill="url(#edge)"/>
+
+  <rect x="24" y="44" width="10" height="10" rx="2" fill="#39ff14"/>
+  <text x="44" y="53" class="kick">THE EVIDENCE LADDER</text>
+  <text x="1168" y="53" text-anchor="end" class="meta">secai · a finding ships only when it's proven</text>
+
+  <!-- left group: leads &amp; bookkeeping -->
+  <rect class="cell" x="32"  y="92" width="150" height="92" rx="10"/>
+  <text class="rej" x="107" y="134" text-anchor="middle">L−x</text>
+  <text class="cap" x="107" y="162" text-anchor="middle">REJECTED</text>
+
+  <rect class="cell" x="194" y="92" width="150" height="92" rx="10"/>
+  <text class="lv" x="269" y="134" text-anchor="middle">L0</text>
+  <text class="cap" x="269" y="162" text-anchor="middle">OBSERVED</text>
+
+  <rect class="cell" x="356" y="92" width="150" height="92" rx="10"/>
+  <text class="lv" x="431" y="134" text-anchor="middle">L1</text>
+  <text class="cap" x="431" y="162" text-anchor="middle">SUSPECTED</text>
+
+  <rect class="cell" x="518" y="92" width="150" height="92" rx="10"/>
+  <text class="lv" x="593" y="134" text-anchor="middle">L2</text>
+  <text class="cap" x="593" y="162" text-anchor="middle">REPRODUCED</text>
+
+  <!-- report line -->
+  <line x1="681" y1="84" x2="681" y2="192" stroke="#39ff14" stroke-width="1.5" stroke-dasharray="4 5" opacity=".7"/>
+  <path d="M681 80 l7 6 l-7 6 z" fill="#39ff14"/>
+
+  <!-- right group: proven, ships -->
+  <rect class="cell cellR pulse" x="694"  y="92" width="150" height="92" rx="10" stroke="#39ff14"/>
+  <text class="lvR" x="769" y="134" text-anchor="middle">L3</text>
+  <text class="capR" x="769" y="162" text-anchor="middle">VERIFIED</text>
+  <text class="chk" x="828" y="112" text-anchor="middle">✓</text>
+
+  <rect class="cell cellR pulse" x="856"  y="92" width="150" height="92" rx="10" stroke="#39ff14" style="animation-delay:.5s"/>
+  <text class="lvR" x="931" y="134" text-anchor="middle">L4</text>
+  <text class="capR" x="931" y="162" text-anchor="middle">IMPACT</text>
+  <text class="chk" x="990" y="112" text-anchor="middle">✓</text>
+
+  <rect class="cell cellR pulse" x="1018" y="92" width="150" height="92" rx="10" stroke="#39ff14" style="animation-delay:1s"/>
+  <text class="lvR" x="1093" y="134" text-anchor="middle">L5</text>
+  <text class="capR" x="1093" y="162" text-anchor="middle">BLIND-CONFIRMED</text>
+  <text class="chk" x="1152" y="112" text-anchor="middle">✓</text>
+
+  <!-- scanning beam -->
+  <g clip-path="url(#band)">
+    <rect class="beam" x="0" y="86" width="150" height="102" fill="url(#beam)"/>
+  </g>
+
+  <text class="note"  x="32"   y="222">left of the line → leads &amp; bookkeeping · reportable: false</text>
+  <text class="noteR" x="1168" y="222" text-anchor="end">right of the line → proven · ships in the report ✓</text>
+</svg>

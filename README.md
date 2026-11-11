@@ -1,7 +1,8 @@
 <img src="assets/banner.svg" width="100%" alt="Maulana Wirawan — I build security tools that show their work"/>
 
 <p align="center">
-  <a href="https://github.com/maulanawirawan/cyphron"><img src="https://img.shields.io/badge/building-cyphron-ff2a4d?style=flat-square&labelColor=1a1d24" alt="building cyphron"/></a>
+  <a href="https://github.com/maulanawirawan/secai"><img src="https://img.shields.io/badge/building-secai-ff2a4d?style=flat-square&labelColor=1a1d24" alt="building secai"/></a>
+  <a href="https://github.com/maulanawirawan/secai"><img src="https://img.shields.io/badge/evidence-272_capabilities-8A2BE2?style=flat-square&labelColor=1a1d24" alt="272 capabilities"/></a>
   <img src="https://img.shields.io/badge/based_in-Jakarta,_ID-00b8c4?style=flat-square&labelColor=1a1d24" alt="Jakarta"/>
   <img src="https://img.shields.io/badge/open_to-work_%26_collabs-2ea44f?style=flat-square&labelColor=1a1d24" alt="open to work"/>
 </p>
@@ -10,18 +11,25 @@
 
 ### About
 
-I work on the boring-but-important side of security: detection,
-evidence, and tooling that doesn't cry wolf. Most of my time goes into
-cyphron, a scanner built around one rule. If a finding can't be proven,
-it doesn't go in the report.
+Detection engineering, mostly — the unglamorous half of security where a
+finding only counts if you can prove it. I'd rather ship a short report
+that survives triage than a long one that gets bounced with *"impact not
+demonstrated."*
 
-Outside of that I build network tools for small businesses (cafe Wi‑Fi
-is a jungle), write scrapers that keep working when the site fights
-back, and send fixes upstream to the open-source tools I use.
+Most of my time goes to **secai**, an agentic scanner built on a single
+rule: a finding you can't prove is a lead, not a claim. Every result sits
+on an explicit evidence ladder, and nothing reaches the report until
+independent sources agree on it.
+
+The rest of the week splits between network tooling for small businesses
+(café Wi‑Fi is a jungle), scrapers that keep working when the site fights
+back, and patches sent upstream to the tools I rely on.
 
 ### Projects
 
-<a href="https://github.com/maulanawirawan/cyphron"><img src="assets/cards/cyphron.svg" width="100%" alt="cyphron: a security scanner that refuses to report what it can't prove"/></a>
+<a href="https://github.com/maulanawirawan/secai"><img src="assets/cards/secai.svg" width="100%" alt="secai: an agentic security scanner that refuses to report what it can't prove"/></a>
+
+<img src="assets/evidence-ladder.svg" width="100%" alt="The evidence ladder — a finding only ships at L3 (deterministically verified) and above"/>
 
 <a href="https://github.com/maulanawirawan/minetwin"><img src="assets/cards/minetwin.svg" width="49%" alt="minetwin"/></a>
 <a href="https://github.com/maulanawirawan/ngambis"><img src="assets/cards/ngambis.svg" width="49%" alt="ngambis"/></a>
@@ -32,7 +40,8 @@ back, and send fixes upstream to the open-source tools I use.
 <summary><b>Open source contributions</b> · 9 merged upstream · 25 open</summary>
 <br/>
 
-PRs I've sent to projects I depend on. The status column is live.
+PRs sent to tools I actually use — vuln templates, scrapers, wordlists,
+advisories. The status column is live, so this table can't quietly lie.
 
 | Project | PR | Status |
 |---|---|---|
@@ -110,7 +119,6 @@ distrust any metric I can't reproduce.
 
 ### Get in touch
 
-Happy to collaborate on detection engineering, network security tooling,
-or scraping pipelines. The easiest way to reach me is an issue on
-[cyphron](https://github.com/maulanawirawan/cyphron/issues), or just open
-a PR. I read them all.
+Open to detection engineering, network security tooling, and scraping
+work — collab or hire. Fastest way to reach me is an issue or PR on
+[secai](https://github.com/maulanawirawan/secai/issues). I read every one.

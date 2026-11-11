@@ -30,8 +30,8 @@
     <text class="l o" y="114" style="animation-delay:.9s">security tooling &amp; detection engineering · Jakarta, Indonesia</text>
 
     <text class="l" y="156" style="animation-delay:1.6s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">ls ./building</tspan></text>
-    <text class="l" y="184" style="animation-delay:2.2s"><tspan class="k">  cyphron   </tspan><tspan class="o"> evidence-first scanner · 92 skills · 914 + 59 tests passing</tspan></text>
-    <text class="l" y="210" style="animation-delay:2.5s"><tspan class="k">  upstream  </tspan><tspan class="o"> merged into nuclei-templates (#17653) &amp; Scrapling (#515)</tspan></text>
+    <text class="l" y="184" style="animation-delay:2.2s"><tspan class="k">  secai     </tspan><tspan class="o"> evidence-first scanner · 272 capabilities · Rust core + MCP</tspan></text>
+    <text class="l" y="210" style="animation-delay:2.5s"><tspan class="k">  upstream  </tspan><tspan class="o"> 9 merged, 25 open · nuclei-templates · Scrapling · OWASP</tspan></text>
     <text class="l" y="236" style="animation-delay:2.8s"><tspan class="k">  netjaga   </tspan><tspan class="o"> LAN guardian for cafe networks</tspan><tspan class="dim"> (private)</tspan></text>
 
     <text class="l" y="278" style="animation-delay:3.5s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">cat ./rules.txt</tspan></text>
