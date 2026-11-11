@@ -9,6 +9,16 @@
 
 <img src="assets/terminal.svg" width="100%" alt="whoami: security tooling and detection engineering, Jakarta"/>
 
+### Self-scan
+
+<img src="assets/self-scan.svg" width="100%" alt="secai self-scan dashboard: PRs merged upstream, severity mix of merged CVE templates, top CVSS, and a live threat feed, regenerated nightly"/>
+
+**This profile scans itself.** Every night a GitHub Action pulls these numbers
+straight from the API — detections merged upstream, their severity mix, the
+latest CVE shipped, secai's CI state — and redraws the board above. Same rule
+as secai: the figures are real, or the run fails and nothing changes. The
+generator is right here in the repo: [`.github/scripts/selfscan.py`](.github/scripts/selfscan.py).
+
 ### About
 
 Detection engineering, mostly — the unglamorous half of security where a

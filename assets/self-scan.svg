@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="secai self-scan: live security dashboard of maulanawirawan">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2a4d"/><stop offset=".5" stop-color="#8A2BE2"/><stop offset="1" stop-color="#00f0ff"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="14"/></clipPath>
+    <clipPath id="barclip"><rect x="30" y="180" width="1140" height="26" rx="7"/></clipPath>
+    <clipPath id="feedclip"><rect x="30" y="248" width="1140" height="48" rx="10"/></clipPath>
+    <style>
+    text { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; }
+    .hdr  { fill:#f4f4f6; font-size:21px; font-weight:800; letter-spacing:3px; }
+    .sub  { fill:#6b7079; font-size:13px; }
+    .big  { font-size:42px; font-weight:800; }
+    .tl   { fill:#8a8f98; font-size:12px; letter-spacing:1px; }
+    .cap  { fill:#8a8f98; font-size:12px; letter-spacing:2px; }
+    .leg  { font-size:12.5px; fill:#a9adb7; }
+    .chip { font-size:14px; font-weight:700; }
+    .cvss { fill:#6b7079; font-size:14px; }
+    .live { fill:#39ff14; font-size:12px; font-weight:700; letter-spacing:1px; }
+    .foot { fill:#5d626d; font-size:11px; letter-spacing:.5px; }
+    .ok   { fill:#39ff14; } .bad { fill:#ffb02e; }
+    .dot  { animation: bk 1.4s infinite steps(1); }
+    @keyframes bk { 50% { opacity:.2; } }
+    .scan { animation: scan 6.5s linear infinite; }
+    @keyframes scan { 0% { transform: translateY(2px); } 100% { transform: translateY(306px); } }
+    .feedmove { animation: feed 21s linear infinite; }
+    @keyframes feed { to { transform: translateX(-2259px); } }
+</style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#0a0b10"/>
+    <rect width="1200" height="3" fill="url(#edge)"/>
+
+    <text x="30" y="40" class="hdr">SELF-SCAN</text>
+    <text x="200" y="40" class="sub">// maulanawirawan · this profile scans itself</text>
+    <circle cx="1116" cy="35" r="5" fill="#39ff14" class="dot"/>
+    <text x="1130" y="40" class="live">LIVE</text>
+
+    <g transform="translate(30,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#39ff14"/><text x="22" y="54" class="big" fill="#39ff14">9</text><text x="22" y="74" class="tl">PRS MERGED UPSTREAM</text></g>
+    <g transform="translate(319,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#00f0ff"/><text x="22" y="54" class="big" fill="#00f0ff">25</text><text x="22" y="74" class="tl">IN REVIEW</text></g>
+    <g transform="translate(608,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#8A2BE2"/><text x="22" y="54" class="big" fill="#8A2BE2">7</text><text x="22" y="74" class="tl">CVE DETECTIONS SHIPPED</text></g>
+    <g transform="translate(897,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#ff2a4d"/><text x="22" y="54" class="big" fill="#ff2a4d">9.8</text><text x="22" y="74" class="tl">TOP CVSS · CVE-2026-120442</text></g>
+
+    <text x="30" y="172" class="cap">MERGED CVE TEMPLATES BY SEVERITY</text>
+    <rect x="30" y="180" width="1140" height="26" rx="7" fill="#12141b" stroke="#262a33"/>
+    <g clip-path="url(#barclip)"><rect x="30.0" y="180" width="162.9" height="26" fill="#ff2a4d"/><rect x="192.9" y="180" width="162.9" height="26" fill="#ff7a1a"/><rect x="355.7" y="180" width="814.3" height="26" fill="#ffb02e"/></g>
+    <rect x="30" y="180" width="1140" height="26" rx="7" fill="none" stroke="#262a33"/>
+    <circle cx="35" cy="226" r="5" fill="#ff2a4d"/><text x="46" y="231" class="leg">1 critical</text><circle cx="161" cy="226" r="5" fill="#ff7a1a"/><text x="172" y="231" class="leg">1 high</text><circle cx="255" cy="226" r="5" fill="#ffb02e"/><text x="266" y="231" class="leg">5 medium</text>
+
+    <g clip-path="url(#feedclip)">
+      <rect x="30" y="248" width="1140" height="48" rx="10" fill="#0e1016" stroke="#262a33"/>
+      <g class="feedmove"><circle cx="195" cy="272" r="5" fill="#ffb02e"/><text x="208" y="277" class="chip" fill="#ffb02e">CVE-2026-62850</text><text x="342" y="277" class="cvss">5.3</text><text x="384" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="510" cy="272" r="5" fill="#ffb02e"/><text x="523" y="277" class="chip" fill="#ffb02e">CVE-2026-119495</text><text x="666" y="277" class="cvss">5.3</text><text x="708" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="834" cy="272" r="5" fill="#ffb02e"/><text x="847" y="277" class="chip" fill="#ffb02e">CVE-2026-120597</text><text x="990" y="277" class="cvss">4.3</text><text x="1032" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="1158" cy="272" r="5" fill="#ffb02e"/><text x="1171" y="277" class="chip" fill="#ffb02e">CVE-2026-118523</text><text x="1314" y="277" class="cvss">5.3</text><text x="1356" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="1482" cy="272" r="5" fill="#ffb02e"/><text x="1495" y="277" class="chip" fill="#ffb02e">CVE-2026-115574</text><text x="1638" y="277" class="cvss">5.3</text><text x="1680" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="1806" cy="272" r="5" fill="#ff2a4d"/><text x="1819" y="277" class="chip" fill="#ff2a4d">CVE-2026-120442</text><text x="1962" y="277" class="cvss">9.8</text><text x="2004" y="277" class="chip" fill="#ff2a4d">CRITICAL</text><circle cx="2148" cy="272" r="5" fill="#ff7a1a"/><text x="2161" y="277" class="chip" fill="#ff7a1a">CVE-2026-120446</text><text x="2304" y="277" class="cvss">8.8</text><text x="2345" y="277" class="chip" fill="#ff7a1a">HIGH</text><circle cx="2454" cy="272" r="5" fill="#ffb02e"/><text x="2467" y="277" class="chip" fill="#ffb02e">CVE-2026-62850</text><text x="2602" y="277" class="cvss">5.3</text><text x="2644" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="2770" cy="272" r="5" fill="#ffb02e"/><text x="2783" y="277" class="chip" fill="#ffb02e">CVE-2026-119495</text><text x="2926" y="277" class="cvss">5.3</text><text x="2968" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="3094" cy="272" r="5" fill="#ffb02e"/><text x="3107" y="277" class="chip" fill="#ffb02e">CVE-2026-120597</text><text x="3250" y="277" class="cvss">4.3</text><text x="3292" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="3418" cy="272" r="5" fill="#ffb02e"/><text x="3431" y="277" class="chip" fill="#ffb02e">CVE-2026-118523</text><text x="3574" y="277" class="cvss">5.3</text><text x="3616" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="3742" cy="272" r="5" fill="#ffb02e"/><text x="3755" y="277" class="chip" fill="#ffb02e">CVE-2026-115574</text><text x="3898" y="277" class="cvss">5.3</text><text x="3940" y="277" class="chip" fill="#ffb02e">MEDIUM</text><circle cx="4066" cy="272" r="5" fill="#ff2a4d"/><text x="4079" y="277" class="chip" fill="#ff2a4d">CVE-2026-120442</text><text x="4222" y="277" class="cvss">9.8</text><text x="4264" y="277" class="chip" fill="#ff2a4d">CRITICAL</text><circle cx="4407" cy="272" r="5" fill="#ff7a1a"/><text x="4420" y="277" class="chip" fill="#ff7a1a">CVE-2026-120446</text><text x="4563" y="277" class="cvss">8.8</text><text x="4605" y="277" class="chip" fill="#ff7a1a">HIGH</text></g>
+    </g>
+    <rect x="30" y="248" width="176" height="48" rx="10" fill="#10121a" stroke="#262a33"/>
+    <text x="48" y="277" class="chip" fill="#00f0ff">THREAT FEED</text>
+    <text x="150" y="278" class="cvss">&#9656;</text>
+
+    <text x="30" y="312" class="foot">secai ci: <tspan class="ok">passing</tspan></text>
+    <text x="1170" y="312" text-anchor="end" class="foot">updated 2026-11-11 08:29 UTC · regenerated nightly by github actions</text>
+
+    <rect class="scan" x="0" y="0" width="1200" height="2" fill="#00f0ff" opacity=".10"/>
+    <rect width="1199" height="319" x=".5" y=".5" rx="14" fill="none" stroke="#262a33"/>
+  </g>
+  <!-- ctf: c2VjYWl7cHJvb2Zfbm90X2NsYWltc30= -->
+</svg>
