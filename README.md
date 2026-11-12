@@ -51,7 +51,7 @@ back, and patches sent upstream to the tools I rely on.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 10 merged upstream · 24 open</summary>
+<summary><b>Open source contributions</b> · 10 merged upstream · 27 open</summary>
 <br/>
 
 PRs sent to tools I actually use — vuln templates, scrapers, wordlists,
@@ -85,6 +85,9 @@ advisories. The status column is live, so this table can't quietly lie.
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17748](https://github.com/projectdiscovery/nuclei-templates/pull/17748) · CVE-2026-125357 · Munin munin-httpd: unauthenticated path traversal to munin.conf | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17748?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17750](https://github.com/projectdiscovery/nuclei-templates/pull/17750) · CVE-2026-122062 · Pronamic Pay: unauthenticated form submission disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17750?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17721](https://github.com/projectdiscovery/nuclei-templates/pull/17721) · CVE-2026-102359 · Kroki TikZ backend: unauthenticated local file read | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17721?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17797](https://github.com/projectdiscovery/nuclei-templates/pull/17797) · CVE-2026-119302 · NotificationX: unauthenticated notification preview disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17797?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17802](https://github.com/projectdiscovery/nuclei-templates/pull/17802) · CVE-2026-123698 · Security For WooCommerce: unauthenticated settings disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17802?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17803](https://github.com/projectdiscovery/nuclei-templates/pull/17803) · CVE-2026-123704 · Security For WooCommerce: unauthenticated admin email disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17803?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10933](https://github.com/github/advisory-database/pull/10933) · Craft CMS SQLi: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10933?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10932](https://github.com/github/advisory-database/pull/10932) · Craft CMS priv-esc: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10932?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10908](https://github.com/github/advisory-database/pull/10908) · Mnestix: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10908?style=flat-square&label=) |
