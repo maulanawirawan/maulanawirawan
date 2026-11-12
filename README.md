@@ -51,7 +51,7 @@ back, and patches sent upstream to the tools I rely on.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 10 merged upstream · 27 open</summary>
+<summary><b>Open source contributions</b> · 10 merged upstream · 29 open</summary>
 <br/>
 
 PRs sent to tools I actually use — vuln templates, scrapers, wordlists,
@@ -88,6 +88,8 @@ advisories. The status column is live, so this table can't quietly lie.
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17797](https://github.com/projectdiscovery/nuclei-templates/pull/17797) · CVE-2026-119302 · NotificationX: unauthenticated notification preview disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17797?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17802](https://github.com/projectdiscovery/nuclei-templates/pull/17802) · CVE-2026-123698 · Security For WooCommerce: unauthenticated settings disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17802?style=flat-square&label=) |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17803](https://github.com/projectdiscovery/nuclei-templates/pull/17803) · CVE-2026-123704 · Security For WooCommerce: unauthenticated admin email disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17803?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17804](https://github.com/projectdiscovery/nuclei-templates/pull/17804) · CVE-2026-110016 · Data Tables Generator by Supsystic: unauthenticated table content disclosure | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17804?style=flat-square&label=) |
+| [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | [#17805](https://github.com/projectdiscovery/nuclei-templates/pull/17805) · CVE-2026-64858 · vulnerability-operator: unauthenticated report directory listing | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/17805?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10933](https://github.com/github/advisory-database/pull/10933) · Craft CMS SQLi: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10933?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10932](https://github.com/github/advisory-database/pull/10932) · Craft CMS priv-esc: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10932?style=flat-square&label=) |
 | [advisory-database](https://github.com/github/advisory-database) | [#10908](https://github.com/github/advisory-database/pull/10908) · Mnestix: add upstream repo + fixed-release references | ![](https://img.shields.io/github/pulls/detail/state/github/advisory-database/10908?style=flat-square&label=) |
