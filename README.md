@@ -51,7 +51,7 @@ back, and patches sent upstream to the tools I rely on.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 12 merged upstream · 27 open</summary>
+<summary><b>Open source contributions</b> · 14 merged upstream · 25 open</summary>
 <br/>
 
 PRs sent to tools I actually use — vuln templates, scrapers, wordlists,
