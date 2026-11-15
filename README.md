@@ -51,7 +51,7 @@ back, and patches sent upstream to the tools I rely on.
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
 <details>
-<summary><b>Open source contributions</b> · 15 merged upstream · 33 open</summary>
+<summary><b>Open source contributions</b> · <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Amerged%2520-user%253Amaulanawirawan&query=%24.total_count&label=merged%20upstream&style=flat-square&color=39ff14" alt="merged upstream"/> · <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Aopen%2520-user%253Amaulanawirawan&query=%24.total_count&label=open%20upstream&style=flat-square&color=00f0ff" alt="open upstream"/></summary>
 <br/>
 
 PRs sent to tools I actually use — vuln templates, scrapers, wordlists,
