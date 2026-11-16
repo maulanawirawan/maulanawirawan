@@ -2,7 +2,7 @@ name: Refresh dashboard
 
 on:
   schedule:
-    - cron: "17 20 * * *" # 03:17 WIB daily
+    - cron: "*/30 * * * *" # every 30 minutes (near-realtime dashboard)
   workflow_dispatch:
 
 permissions:
