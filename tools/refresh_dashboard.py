@@ -67,6 +67,15 @@ def main():
                f"{merged} merged, {opened} open \u00b7 nuclei-templates", t)
     open("assets/terminal.svg", "w", encoding="utf-8", newline="").write(t)
 
+    # Cache-bust the local SVG embeds in README so any proxy/camo layer
+    # fetches a fresh URL whenever the counters move.
+    stamp = f"{merged}-{opened}-{cve_det}"
+    r = open("README.md", encoding="utf-8").read()
+    r2 = re.sub(r'(src="assets/(?:terminal|self-scan)\.svg)(\?v=[\w-]+)?"',
+                r'\1?v={stamp}"'.format(stamp=stamp), r)
+    if r2 != r:
+        open("README.md", "w", encoding="utf-8", newline="").write(r2)
+
     print(f"dashboard refreshed: {merged} merged, {opened} open, {cve_det} cve detections")
 
 

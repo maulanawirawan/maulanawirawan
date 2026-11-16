@@ -7,11 +7,11 @@
   <img src="https://img.shields.io/badge/open_to-work_%26_collabs-2ea44f?style=flat-square&labelColor=1a1d24" alt="open to work"/>
 </p>
 
-<img src="assets/terminal.svg" width="100%" alt="whoami: security tooling and detection engineering, Jakarta"/>
+<img src="assets/terminal.svg?v=16-35-13" width="100%" alt="whoami: security tooling and detection engineering, Jakarta"/>
 
 ### Self-scan
 
-<img src="assets/self-scan.svg" width="100%" alt="secai self-scan dashboard: PRs merged upstream, severity mix of merged CVE templates, top CVSS, and a live threat feed, regenerated nightly"/>
+<img src="assets/self-scan.svg?v=16-35-13" width="100%" alt="secai self-scan dashboard: PRs merged upstream, severity mix of merged CVE templates, top CVSS, and a live threat feed, auto-refreshed every 30 minutes"/>
 
 **This profile scans itself.** Every night a GitHub Action pulls these numbers
 straight from the API — detections merged upstream, their severity mix, the
