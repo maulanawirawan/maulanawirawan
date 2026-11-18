@@ -40,7 +40,7 @@
     <text class="l" y="156" style="animation-delay:1.50s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan></text>
     <text class="cmd" x="171" y="156" clip-path="url(#c2)">ls ./building</text>
     <text class="l" y="184" style="animation-delay:2.80s"><tspan class="k">  secai     </tspan><tspan class="o"> evidence-first scanner · 272 capabilities · Rust core + MCP</tspan></text>
-    <text class="l" y="210" style="animation-delay:3.00s"><tspan class="k">  upstream  </tspan><tspan class="o"> 28 merged, 30 open · nuclei-templates · Scrapling · OWASP</tspan></text>
+    <text class="l" y="210" style="animation-delay:3.00s"><tspan class="k">  upstream  </tspan><tspan class="o"> 28 merged, 35 open · nuclei-templates · Scrapling · OWASP</tspan></text>
     <text class="l" y="236" style="animation-delay:3.20s"><tspan class="k">  netjaga   </tspan><tspan class="o"> LAN guardian for cafe networks</tspan><tspan class="dim"> (private)</tspan></text>
 
     <text class="l" y="278" style="animation-delay:3.70s"><tspan class="u">maulana</tspan><tspan class="dim">@</tspan><tspan class="p">jkt</tspan><tspan class="dim">:~$ </tspan></text>
