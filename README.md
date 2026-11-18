@@ -50,6 +50,9 @@ back, and patches sent upstream to the tools I rely on.
 <a href="https://github.com/maulanawirawan/undangan_nikah_digital"><img src="assets/cards/undangan.svg" width="49%" alt="undangan_nikah_digital"/></a>
 <img src="assets/cards/netjaga.svg" width="49%" alt="NetJaga (private)"/>
 
+<a href="https://maulanawirawan.github.io/nightwire/"><img src="https://raw.githubusercontent.com/maulanawirawan/nightwire/main/media/preview.webp" width="100%" alt="nightwire: diving between rain-wet neon towers while buildings get scanned and turn green, then red intrusion traffic converges on one host and the city blocks it"/></a>
+<p align="center"><sub><b><a href="https://github.com/maulanawirawan/nightwire">nightwire</a></b> · a rain-soaked city of hosts in one 49 KB HTML file · click a building to scan it, every proof is a real CVE I shipped · watch it catch an intrusion · <a href="https://maulanawirawan.github.io/nightwire/"><b>fly it live →</b></a></sub></p>
+
 <details>
 <summary><b>Open source contributions</b> · <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Amerged%2520-user%253Amaulanawirawan&query=%24.total_count&label=merged%20upstream&style=flat-square&color=39ff14" alt="merged upstream"/> · <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Aopen%2520-user%253Amaulanawirawan&query=%24.total_count&label=open%20upstream&style=flat-square&color=00f0ff" alt="open upstream"/></summary>
 <br/>
