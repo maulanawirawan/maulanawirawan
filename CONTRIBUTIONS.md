@@ -10,7 +10,7 @@ Jump to: [nuclei-templates](#nuclei-templates) (76) · [Scrapling](#scrapling) (
 
 ## nuclei-templates
 
-<sub>[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) · 76 PRs · 40 merged · 27 open</sub>
+<sub>[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) · 76 PRs · 45 merged · 22 open</sub>
 
 | PR | Status |
 |---|---|

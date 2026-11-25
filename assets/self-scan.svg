@@ -36,9 +36,9 @@
     <circle cx="1116" cy="35" r="5" fill="#39ff14" class="dot"/>
     <text x="1130" y="40" class="live">LIVE</text>
 
-    <g transform="translate(30,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#39ff14"/><text x="22" y="54" class="big" fill="#39ff14">42</text><text x="22" y="74" class="tl">PRS MERGED UPSTREAM</text></g>
-    <g transform="translate(319,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#00f0ff"/><text x="22" y="54" class="big" fill="#00f0ff">34</text><text x="22" y="74" class="tl">IN REVIEW</text></g>
-    <g transform="translate(608,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#8A2BE2"/><text x="22" y="54" class="big" fill="#8A2BE2">21</text><text x="22" y="74" class="tl">CVE DETECTIONS SHIPPED</text></g>
+    <g transform="translate(30,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#39ff14"/><text x="22" y="54" class="big" fill="#39ff14">47</text><text x="22" y="74" class="tl">PRS MERGED UPSTREAM</text></g>
+    <g transform="translate(319,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#00f0ff"/><text x="22" y="54" class="big" fill="#00f0ff">29</text><text x="22" y="74" class="tl">IN REVIEW</text></g>
+    <g transform="translate(608,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#8A2BE2"/><text x="22" y="54" class="big" fill="#8A2BE2">17</text><text x="22" y="74" class="tl">CVE DETECTIONS SHIPPED</text></g>
     <g transform="translate(897,62)"><rect width="273" height="86" rx="12" fill="#0e1016" stroke="#262a33"/><rect width="4" height="86" rx="2" fill="#ff2a4d"/><text x="22" y="54" class="big" fill="#ff2a4d">9.8</text><text x="22" y="74" class="tl">TOP CVSS · CVE-2026-114516</text></g>
 
     <text x="30" y="172" class="cap">MERGED CVE TEMPLATES BY SEVERITY</text>
