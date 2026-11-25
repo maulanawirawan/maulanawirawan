@@ -145,6 +145,6 @@ Jump to: [nuclei-templates](#nuclei-templates) (76) · [Scrapling](#scrapling) (
 |---|---|
 | [#186](https://github.com/projectdiscovery/wappalyzergo/pull/186) · fix(patterns): preserve escaped asterisks when rewriting quantifiers | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/wappalyzergo/186?style=flat-square&label=) |
 
-<sub>Table regenerated from the GitHub API. Badges above are live counts.</sub>
+<sub>Table regenerated automatically from the GitHub API. Badges above are live counts.</sub>
 
 [← back to profile](README.md)
