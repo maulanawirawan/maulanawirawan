@@ -4,16 +4,17 @@ Every PR I've sent upstream, grouped by project. Status badges are live.
 
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Amerged%2520-user%253Amaulanawirawan&query=%24.total_count&label=merged%20upstream&style=flat-square&color=39ff14" alt="merged upstream"/> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Aopen%2520-user%253Amaulanawirawan&query=%24.total_count&label=open%20upstream&style=flat-square&color=00f0ff" alt="open upstream"/>
 
-Jump to: [nuclei-templates](#nuclei-templates) (76) · [Scrapling](#scrapling) (3) · [advisory-database](#advisory-database) (5) · [PayloadsAllTheThings](#payloadsallthethings) (1) · [OWASP CheatSheetSeries](#owasp-cheatsheetseries) (1) · [SecLists](#seclists) (1) · [wappalyzergo](#wappalyzergo) (1)
+Jump to: [nuclei-templates](#nuclei-templates) (77) · [Scrapling](#scrapling) (3) · [advisory-database](#advisory-database) (5) · [PayloadsAllTheThings](#payloadsallthethings) (1) · [OWASP CheatSheetSeries](#owasp-cheatsheetseries) (1) · [SecLists](#seclists) (1) · [wappalyzergo](#wappalyzergo) (1)
 
 [← back to profile](README.md)
 
 ## nuclei-templates
 
-<sub>[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) · 76 PRs · 46 merged · 21 open</sub>
+<sub>[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) · 77 PRs · 48 merged · 20 open</sub>
 
 | PR | Status |
 |---|---|
+| [#18133](https://github.com/projectdiscovery/nuclei-templates/pull/18133) · CVE-2026-109367: All in One SEO <= 5.0.3 - Unauthenticated Smart Tag Injection via Search Term | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18133?style=flat-square&label=) |
 | [#18038](https://github.com/projectdiscovery/nuclei-templates/pull/18038) · Members <= 3.3.1 - Unauthenticated Private Site Bypass via Login-Path Exemption Query-Var Override (CVE-2026-134748) | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18038?style=flat-square&label=) |
 | [#18035](https://github.com/projectdiscovery/nuclei-templates/pull/18035) · BookIt <= 2.6.0.8 - Unauthenticated Payment Settings (incl. Stripe Secret Key) Disclosure via Calendar Vue Prop (CVE-2026-131720) | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18035?style=flat-square&label=) |
 | [#18030](https://github.com/projectdiscovery/nuclei-templates/pull/18030) · Yoast SEO < 28.9 - Unauthenticated Private Content Disclosure via Headless REST Head Endpoint (CVE-2026-120413) | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18030?style=flat-square&label=) |
