@@ -4,7 +4,7 @@ Every PR I've sent upstream, grouped by project. Status badges are live.
 
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Amerged%2520-user%253Amaulanawirawan&query=%24.total_count&label=merged%20upstream&style=flat-square&color=39ff14" alt="merged upstream"/> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Aopen%2520-user%253Amaulanawirawan&query=%24.total_count&label=open%20upstream&style=flat-square&color=00f0ff" alt="open upstream"/>
 
-Jump to: [nuclei-templates](#nuclei-templates) (78) · [Scrapling](#scrapling) (3) · [advisory-database](#advisory-database) (5) · [PayloadsAllTheThings](#payloadsallthethings) (1) · [OWASP CheatSheetSeries](#owasp-cheatsheetseries) (1) · [SecLists](#seclists) (1) · [sigma](#sigma) (5) · [webappanalyzer](#webappanalyzer) (1) · [nuclei](#nuclei) (1) · [wappalyzergo](#wappalyzergo) (1) · [security_content](#securitycontent) (1)
+Jump to: [nuclei-templates](#nuclei-templates) (78) · [Scrapling](#scrapling) (3) · [advisory-database](#advisory-database) (5) · [PayloadsAllTheThings](#payloadsallthethings) (1) · [OWASP CheatSheetSeries](#owasp-cheatsheetseries) (1) · [SecLists](#seclists) (1) · [Azure-Sentinel](#azure-sentinel) (59) · [sigma](#sigma) (8) · [webappanalyzer](#webappanalyzer) (1) · [nuclei](#nuclei) (1) · [wappalyzergo](#wappalyzergo) (1) · [security_content](#securitycontent) (8)
 
 [← back to profile](README.md)
 
@@ -139,12 +139,81 @@ Jump to: [nuclei-templates](#nuclei-templates) (78) · [Scrapling](#scrapling) (
 |---|---|
 | [#1353](https://github.com/danielmiessler/SecLists/pull/1353) · Travis CI [secure] environment variable names (1,400 names) | ![](https://img.shields.io/github/pulls/detail/state/danielmiessler/SecLists/1353?style=flat-square&label=) |
 
-## sigma
+## Azure-Sentinel
 
-<sub>[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma) · 5 PRs · 5 merged · 0 open</sub>
+<sub>[Azure/Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) · 59 PRs · 0 merged · 59 open</sub>
 
 | PR | Status |
 |---|---|
+| [#15823](https://github.com/Azure/Azure-Sentinel/pull/15823) · Fix typos in Veritas NetBackup rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15823?style=flat-square&label=) |
+| [#15822](https://github.com/Azure/Azure-Sentinel/pull/15822) · Fix typos in Vectra AI Detect rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15822?style=flat-square&label=) |
+| [#15821](https://github.com/Azure/Azure-Sentinel/pull/15821) · Fix typos in SlackAudit rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15821?style=flat-square&label=) |
+| [#15820](https://github.com/Azure/Azure-Sentinel/pull/15820) · Fix typos in SentinelOne rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15820?style=flat-square&label=) |
+| [#15819](https://github.com/Azure/Azure-Sentinel/pull/15819) · Fix typos in SAP LogServ rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15819?style=flat-square&label=) |
+| [#15818](https://github.com/Azure/Azure-Sentinel/pull/15818) · Fix typos in RidgeSecurity rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15818?style=flat-square&label=) |
+| [#15817](https://github.com/Azure/Azure-Sentinel/pull/15817) · Fix typos in QualysVM rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15817?style=flat-square&label=) |
+| [#15816](https://github.com/Azure/Azure-Sentinel/pull/15816) · Fix typos in PaloAltoPrismaCloud rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15816?style=flat-square&label=) |
+| [#15815](https://github.com/Azure/Azure-Sentinel/pull/15815) · Fix typos in PaloAltoCDL rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15815?style=flat-square&label=) |
+| [#15814](https://github.com/Azure/Azure-Sentinel/pull/15814) · Fix typos in OracleDatabaseAudit rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15814?style=flat-square&label=) |
+| [#15813](https://github.com/Azure/Azure-Sentinel/pull/15813) · Fix typos in Okta Single Sign-On rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15813?style=flat-square&label=) |
+| [#15812](https://github.com/Azure/Azure-Sentinel/pull/15812) · Fix typos in Network Threat Protection Essentials rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15812?style=flat-square&label=) |
+| [#15811](https://github.com/Azure/Azure-Sentinel/pull/15811) · Fix typos in NISTSP80053 rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15811?style=flat-square&label=) |
+| [#15810](https://github.com/Azure/Azure-Sentinel/pull/15810) · Fix typos in MicrosoftPurviewInsiderRiskManagement rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15810?style=flat-square&label=) |
+| [#15809](https://github.com/Azure/Azure-Sentinel/pull/15809) · Fix typos in Microsoft Business Applications rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15809?style=flat-square&label=) |
+| [#15808](https://github.com/Azure/Azure-Sentinel/pull/15808) · Fix typos in Microsoft 365 rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15808?style=flat-square&label=) |
+| [#15807](https://github.com/Azure/Azure-Sentinel/pull/15807) · Fix typos in Malware Protection Essentials rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15807?style=flat-square&label=) |
+| [#15806](https://github.com/Azure/Azure-Sentinel/pull/15806) · Fix typos in Infoblox NIOS rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15806?style=flat-square&label=) |
+| [#15805](https://github.com/Azure/Azure-Sentinel/pull/15805) · Fix typos in GoogleWorkspaceReports rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15805?style=flat-square&label=) |
+| [#15804](https://github.com/Azure/Azure-Sentinel/pull/15804) · Fix typos in GoogleCloudPlatformDNS rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15804?style=flat-square&label=) |
+| [#15803](https://github.com/Azure/Azure-Sentinel/pull/15803) · Fix typos in FalconFriday rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15803?style=flat-square&label=) |
+| [#15802](https://github.com/Azure/Azure-Sentinel/pull/15802) · Fix typos in Dragos rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15802?style=flat-square&label=) |
+| [#15801](https://github.com/Azure/Azure-Sentinel/pull/15801) · Fix typos in Cloud Identity Threat Protection Essentials rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15801?style=flat-square&label=) |
+| [#15800](https://github.com/Azure/Azure-Sentinel/pull/15800) · Fix typos in CiscoWSA rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15800?style=flat-square&label=) |
+| [#15799](https://github.com/Azure/Azure-Sentinel/pull/15799) · Fix typos in CiscoUmbrella rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15799?style=flat-square&label=) |
+| [#15798](https://github.com/Azure/Azure-Sentinel/pull/15798) · Fix typos in CiscoDuoSecurity rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15798?style=flat-square&label=) |
+| [#15797](https://github.com/Azure/Azure-Sentinel/pull/15797) · Fix typos in Cisco ISE rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15797?style=flat-square&label=) |
+| [#15796](https://github.com/Azure/Azure-Sentinel/pull/15796) · Fix typos in BloodHound Enterprise rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15796?style=flat-square&label=) |
+| [#15795](https://github.com/Azure/Azure-Sentinel/pull/15795) · Fix typos in AzureDevOpsAuditing rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15795?style=flat-square&label=) |
+| [#15794](https://github.com/Azure/Azure-Sentinel/pull/15794) · Fix typos in Azure Key Vault rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15794?style=flat-square&label=) |
+| [#15793](https://github.com/Azure/Azure-Sentinel/pull/15793) · Fix typos in Attacker Tools Threat Protection Essentials rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15793?style=flat-square&label=) |
+| [#15792](https://github.com/Azure/Azure-Sentinel/pull/15792) · Fix typos in Zscaler Internet Access rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15792?style=flat-square&label=) |
+| [#15791](https://github.com/Azure/Azure-Sentinel/pull/15791) · Fix typos in Symantec Endpoint Protection rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15791?style=flat-square&label=) |
+| [#15790](https://github.com/Azure/Azure-Sentinel/pull/15790) · Fix typos in Box rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15790?style=flat-square&label=) |
+| [#15789](https://github.com/Azure/Azure-Sentinel/pull/15789) · Fix typos in CyberArkEPM rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15789?style=flat-square&label=) |
+| [#15788](https://github.com/Azure/Azure-Sentinel/pull/15788) · Fix typos in Cisco Secure Endpoint rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15788?style=flat-square&label=) |
+| [#15787](https://github.com/Azure/Azure-Sentinel/pull/15787) · Fix typos in MaturityModelForEventLogManagementM2131 rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15787?style=flat-square&label=) |
+| [#15786](https://github.com/Azure/Azure-Sentinel/pull/15786) · Fix typos in UEBA Essentials rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15786?style=flat-square&label=) |
+| [#15785](https://github.com/Azure/Azure-Sentinel/pull/15785) · Fix typos in Apache Log4j Vulnerability Detection rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15785?style=flat-square&label=) |
+| [#15784](https://github.com/Azure/Azure-Sentinel/pull/15784) · Fix typos in Windows Security Events rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15784?style=flat-square&label=) |
+| [#15783](https://github.com/Azure/Azure-Sentinel/pull/15783) · Fix typos in Hunting Queries (root) rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15783?style=flat-square&label=) |
+| [#15782](https://github.com/Azure/Azure-Sentinel/pull/15782) · Fix typos in Detections (root) rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15782?style=flat-square&label=) |
+| [#15781](https://github.com/Azure/Azure-Sentinel/pull/15781) · Fix typos in GitHub rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15781?style=flat-square&label=) |
+| [#15780](https://github.com/Azure/Azure-Sentinel/pull/15780) · Fix typos in Microsoft Defender XDR rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15780?style=flat-square&label=) |
+| [#15779](https://github.com/Azure/Azure-Sentinel/pull/15779) · Fix typos in Microsoft Entra ID rule names and descriptions | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15779?style=flat-square&label=) |
+| [#15778](https://github.com/Azure/Azure-Sentinel/pull/15778) · Replace revoked ATT&CK technique IDs in Corelight hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15778?style=flat-square&label=) |
+| [#15777](https://github.com/Azure/Azure-Sentinel/pull/15777) · Replace revoked ATT&CK technique IDs in ApacheHTTPServer hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15777?style=flat-square&label=) |
+| [#15776](https://github.com/Azure/Azure-Sentinel/pull/15776) · Fix invalid tactic names in Hunting Queries (CloudAppEvents, SecurityEvent) hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15776?style=flat-square&label=) |
+| [#15775](https://github.com/Azure/Azure-Sentinel/pull/15775) · Fix invalid tactic names in Windows Security Events hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15775?style=flat-square&label=) |
+| [#15774](https://github.com/Azure/Azure-Sentinel/pull/15774) · Fix invalid tactic names in Trend Micro Apex One hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15774?style=flat-square&label=) |
+| [#15773](https://github.com/Azure/Azure-Sentinel/pull/15773) · Fix invalid tactic names in Endace hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15773?style=flat-square&label=) |
+| [#15772](https://github.com/Azure/Azure-Sentinel/pull/15772) · Fix invalid tactic names in Cyborg Security HUNTER hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15772?style=flat-square&label=) |
+| [#15771](https://github.com/Azure/Azure-Sentinel/pull/15771) · Fix invalid tactic names in Hybrid Attack - Cloud & Identity hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15771?style=flat-square&label=) |
+| [#15770](https://github.com/Azure/Azure-Sentinel/pull/15770) · Fix invalid tactic names in Microsoft Defender XDR hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15770?style=flat-square&label=) |
+| [#15769](https://github.com/Azure/Azure-Sentinel/pull/15769) · Fix invalid tactic names in Web Shells Threat Protection hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15769?style=flat-square&label=) |
+| [#15768](https://github.com/Azure/Azure-Sentinel/pull/15768) · Fix invalid tactic names in Google Workspace Reports hunting queries | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15768?style=flat-square&label=) |
+| [#15767](https://github.com/Azure/Azure-Sentinel/pull/15767) · Fix tactic names emitted by Jamf Protect - Alerts (CredentialAcccess, CommandandControl) | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15767?style=flat-square&label=) |
+| [#15766](https://github.com/Azure/Azure-Sentinel/pull/15766) · Fix bcdedit.exe name in Excessive Windows Discovery and Execution Processes hunting query | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15766?style=flat-square&label=) |
+| [#15765](https://github.com/Azure/Azure-Sentinel/pull/15765) · Fix bcdedit.exe name in Detect Malicious Usage of Recovery Tools to Delete Backup Files | ![](https://img.shields.io/github/pulls/detail/state/Azure/Azure-Sentinel/15765?style=flat-square&label=) |
+
+## sigma
+
+<sub>[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma) · 8 PRs · 5 merged · 3 open</sub>
+
+| PR | Status |
+|---|---|
+| [#6687](https://github.com/SigmaHQ/sigma/pull/6687) · chore: fix typos in two rule texts | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6687?style=flat-square&label=) |
+| [#6686](https://github.com/SigmaHQ/sigma/pull/6686) · fix: Potential System DLL Sideloading From Non System Locations - miutils.dl typo in Arsenal Image Mounter filter | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6686?style=flat-square&label=) |
+| [#6685](https://github.com/SigmaHQ/sigma/pull/6685) · chore: tests - remove two stale escaped_wildcard exclusions | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6685?style=flat-square&label=) |
 | [#6679](https://github.com/SigmaHQ/sigma/pull/6679) · fix: WinSxS Executable File Creation By Non-System Process - Systems32 typo in filter | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6679?style=flat-square&label=) |
 | [#6678](https://github.com/SigmaHQ/sigma/pull/6678) · fix: AppX Located in Known Staging Directory - AppdData typo never matches the Temp folder | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6678?style=flat-square&label=) |
 | [#6677](https://github.com/SigmaHQ/sigma/pull/6677) · fix: PUA - Nmap/Zenmap Execution - zennmap.exe typo never matches Zenmap | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6677?style=flat-square&label=) |
@@ -177,10 +246,17 @@ Jump to: [nuclei-templates](#nuclei-templates) (78) · [Scrapling](#scrapling) (
 
 ## security_content
 
-<sub>[splunk/security_content](https://github.com/splunk/security_content) · 1 PRs · 0 merged · 1 open</sub>
+<sub>[splunk/security_content](https://github.com/splunk/security_content) · 8 PRs · 0 merged · 8 open</sub>
 
 | PR | Status |
 |---|---|
+| [#4459](https://github.com/splunk/security_content/pull/4459) · Fix typos in analytic stories text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4459?style=flat-square&label=) |
+| [#4458](https://github.com/splunk/security_content/pull/4458) · Fix typos in application detections text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4458?style=flat-square&label=) |
+| [#4457](https://github.com/splunk/security_content/pull/4457) · Fix typos in network detections text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4457?style=flat-square&label=) |
+| [#4456](https://github.com/splunk/security_content/pull/4456) · Fix typos in web detections text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4456?style=flat-square&label=) |
+| [#4455](https://github.com/splunk/security_content/pull/4455) · Fix typos in cloud detections text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4455?style=flat-square&label=) |
+| [#4454](https://github.com/splunk/security_content/pull/4454) · Fix typos in endpoint detections (non-Windows-prefixed) text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4454?style=flat-square&label=) |
+| [#4453](https://github.com/splunk/security_content/pull/4453) · Fix typos in Windows endpoint detections text fields | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4453?style=flat-square&label=) |
 | [#4452](https://github.com/splunk/security_content/pull/4452) · Fix nbtstat.exe typo in Potential System Network Configuration Discovery Activity | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4452?style=flat-square&label=) |
 
 <sub>Table regenerated automatically from the GitHub API. Badges above are live counts.</sub>
