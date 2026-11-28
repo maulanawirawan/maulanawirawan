@@ -4,16 +4,17 @@ Every PR I've sent upstream, grouped by project. Status badges are live.
 
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Amerged%2520-user%253Amaulanawirawan&query=%24.total_count&label=merged%20upstream&style=flat-square&color=39ff14" alt="merged upstream"/> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253Amaulanawirawan%2520type%253Apr%2520is%253Aopen%2520-user%253Amaulanawirawan&query=%24.total_count&label=open%20upstream&style=flat-square&color=00f0ff" alt="open upstream"/>
 
-Jump to: [nuclei-templates](#nuclei-templates) (77) · [Scrapling](#scrapling) (3) · [advisory-database](#advisory-database) (5) · [PayloadsAllTheThings](#payloadsallthethings) (1) · [OWASP CheatSheetSeries](#owasp-cheatsheetseries) (1) · [SecLists](#seclists) (1) · [wappalyzergo](#wappalyzergo) (1)
+Jump to: [nuclei-templates](#nuclei-templates) (78) · [Scrapling](#scrapling) (3) · [advisory-database](#advisory-database) (5) · [PayloadsAllTheThings](#payloadsallthethings) (1) · [OWASP CheatSheetSeries](#owasp-cheatsheetseries) (1) · [SecLists](#seclists) (1) · [sigma](#sigma) (5) · [webappanalyzer](#webappanalyzer) (1) · [nuclei](#nuclei) (1) · [wappalyzergo](#wappalyzergo) (1) · [security_content](#securitycontent) (1)
 
 [← back to profile](README.md)
 
 ## nuclei-templates
 
-<sub>[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) · 77 PRs · 48 merged · 20 open</sub>
+<sub>[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) · 78 PRs · 48 merged · 21 open</sub>
 
 | PR | Status |
 |---|---|
+| [#18134](https://github.com/projectdiscovery/nuclei-templates/pull/18134) · fix: remove duplicate tags in 27 templates | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18134?style=flat-square&label=) |
 | [#18133](https://github.com/projectdiscovery/nuclei-templates/pull/18133) · CVE-2026-109367: All in One SEO <= 5.0.3 - Unauthenticated Smart Tag Injection via Search Term | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18133?style=flat-square&label=) |
 | [#18038](https://github.com/projectdiscovery/nuclei-templates/pull/18038) · Members <= 3.3.1 - Unauthenticated Private Site Bypass via Login-Path Exemption Query-Var Override (CVE-2026-134748) | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18038?style=flat-square&label=) |
 | [#18035](https://github.com/projectdiscovery/nuclei-templates/pull/18035) · BookIt <= 2.6.0.8 - Unauthenticated Payment Settings (incl. Stripe Secret Key) Disclosure via Calendar Vue Prop (CVE-2026-131720) | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18035?style=flat-square&label=) |
@@ -138,6 +139,34 @@ Jump to: [nuclei-templates](#nuclei-templates) (77) · [Scrapling](#scrapling) (
 |---|---|
 | [#1353](https://github.com/danielmiessler/SecLists/pull/1353) · Travis CI [secure] environment variable names (1,400 names) | ![](https://img.shields.io/github/pulls/detail/state/danielmiessler/SecLists/1353?style=flat-square&label=) |
 
+## sigma
+
+<sub>[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma) · 5 PRs · 5 merged · 0 open</sub>
+
+| PR | Status |
+|---|---|
+| [#6679](https://github.com/SigmaHQ/sigma/pull/6679) · fix: WinSxS Executable File Creation By Non-System Process - Systems32 typo in filter | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6679?style=flat-square&label=) |
+| [#6678](https://github.com/SigmaHQ/sigma/pull/6678) · fix: AppX Located in Known Staging Directory - AppdData typo never matches the Temp folder | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6678?style=flat-square&label=) |
+| [#6677](https://github.com/SigmaHQ/sigma/pull/6677) · fix: PUA - Nmap/Zenmap Execution - zennmap.exe typo never matches Zenmap | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6677?style=flat-square&label=) |
+| [#6676](https://github.com/SigmaHQ/sigma/pull/6676) · fix: Alternate PowerShell Hosts - PowerShell Module - missing backslash in the \??\C:\Windows filter values | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6676?style=flat-square&label=) |
+| [#6675](https://github.com/SigmaHQ/sigma/pull/6675) · fix: Disable of ETW Trace - Powershell - quoted '17' values used typographic quotes | ![](https://img.shields.io/github/pulls/detail/state/SigmaHQ/sigma/6675?style=flat-square&label=) |
+
+## webappanalyzer
+
+<sub>[enthec/webappanalyzer](https://github.com/enthec/webappanalyzer) · 1 PRs · 0 merged · 1 open</sub>
+
+| PR | Status |
+|---|---|
+| [#555](https://github.com/enthec/webappanalyzer/pull/555) · Fix quadratic backtracking in React html pattern | ![](https://img.shields.io/github/pulls/detail/state/enthec/webappanalyzer/555?style=flat-square&label=) |
+
+## nuclei
+
+<sub>[projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) · 1 PRs · 0 merged · 1 open</sub>
+
+| PR | Status |
+|---|---|
+| [#8338](https://github.com/projectdiscovery/nuclei/pull/8338) · fix(http): keep numbered request conditions working with payloads | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei/8338?style=flat-square&label=) |
+
 ## wappalyzergo
 
 <sub>[projectdiscovery/wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) · 1 PRs · 0 merged · 0 open</sub>
@@ -145,6 +174,14 @@ Jump to: [nuclei-templates](#nuclei-templates) (77) · [Scrapling](#scrapling) (
 | PR | Status |
 |---|---|
 | [#186](https://github.com/projectdiscovery/wappalyzergo/pull/186) · fix(patterns): preserve escaped asterisks when rewriting quantifiers | ![](https://img.shields.io/github/pulls/detail/state/projectdiscovery/wappalyzergo/186?style=flat-square&label=) |
+
+## security_content
+
+<sub>[splunk/security_content](https://github.com/splunk/security_content) · 1 PRs · 0 merged · 1 open</sub>
+
+| PR | Status |
+|---|---|
+| [#4452](https://github.com/splunk/security_content/pull/4452) · Fix nbtstat.exe typo in Potential System Network Configuration Discovery Activity | ![](https://img.shields.io/github/pulls/detail/state/splunk/security_content/4452?style=flat-square&label=) |
 
 <sub>Table regenerated automatically from the GitHub API. Badges above are live counts.</sub>
 
